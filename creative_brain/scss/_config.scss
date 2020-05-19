@@ -1,0 +1,19 @@
+//Set Color
+$blue-color:#002060;
+$pink-color:#fe5086;
+$greenBlue-color:#00eded;
+$light-color:#f4f4f4;
+$neutral-color:#fff;
+
+@function set-text-color($color){
+    @if(lightness($color)>50){
+        @return #333;
+    }@else{
+        @return #fff;
+    }
+}
+
+@mixin set-background-color($color) {
+    background-color: $color;
+    color: set-text-color($color);
+}
