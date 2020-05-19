@@ -1,2 +1,10 @@
 # Design_website_CB
-Test On Github
+Project for website design
+
+Creative Brain
+
+Bootstrap
+SCSS
+HTML
+CSS
+FontAwesome
